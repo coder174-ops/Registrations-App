@@ -1,0 +1,168 @@
+
+/* log-out page start*/
+
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container for the logout page */
+.Log-out {
+  background-color: #c3edef;
+  padding: 50px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 8px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Styling the user's email */
+.Log-out .user-email {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style for the logout button */
+.Log-out button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4bd7f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Log-out button:hover {
+  background-color: #c82333;
+}
+
+/* Optional message for a friendly logout note */
+.Log-out .logout-message {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #666;
+}
+/* log-out-page end*/
+
+/* SignUp-page CSS*/
+.signup-page {
+  width: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  font-family: Arial, sans-serif;
+}
+
+.signup-page h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.signup-page label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.signup-page input[type="email"],
+.signup-page input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 16px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.signup-page button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signup-page button:hover {
+  background-color: #45a049;
+}
+
+.signup-page .error {
+  color: red;
+  font-size: 12px;
+  margin-top: -12px;
+}
+/* SignUp-page CSS end */
+
+/* SignIN-page CSS start*/
+.signin-page {
+  width: 350px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  font-family: Arial, sans-serif;
+}
+
+.signin-page h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.signin-page label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.signin-page input[type="email"],
+.signin-page input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 16px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.signin-page button {
+  width: 100%;
+  background-color: #007BFF;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signin-page button:hover {
+  background-color: #0056b3;
+}
+
+.signin-page .error {
+  color: red;
+  font-size: 12px;
+  margin-top: -12px;
+}
+
